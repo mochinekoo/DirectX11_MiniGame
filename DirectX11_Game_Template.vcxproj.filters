@@ -37,6 +37,9 @@
     <Filter Include="MochinekoEngine\Util">
       <UniqueIdentifier>{736c3d9b-6723-48b1-b809-ab3975827667}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Scene\StopWatchScene">
+      <UniqueIdentifier>{e1844a4d-c96f-45d3-b239-3b89a9c40df8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MochinekoEngine\BaseObject.h">
@@ -165,6 +168,12 @@
     <ClInclude Include="TitleScene.h">
       <Filter>Source\Scene</Filter>
     </ClInclude>
+    <ClInclude Include="StopWatchRunningScene.h">
+      <Filter>Source\Scene\StopWatchScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGameRunningScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MochinekoEngine\CameraManager.cpp">
@@ -274,6 +283,9 @@
     </ClCompile>
     <ClCompile Include="TitleScene.cpp">
       <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StopWatchRunningScene.cpp">
+      <Filter>Source\Scene\StopWatchScene</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

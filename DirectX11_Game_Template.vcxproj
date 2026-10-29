@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MiniGameRunningScene.h" />
     <ClInclude Include="MochinekoEngine\BaseCollider.h" />
     <ClInclude Include="MochinekoEngine\BaseObject.h" />
     <ClInclude Include="MochinekoEngine\BaseScene.h" />
@@ -60,6 +61,7 @@
     <ClInclude Include="MochinekoEngine\Transform.h" />
     <ClInclude Include="MochinekoEngine\VideoData.h" />
     <ClInclude Include="MochinekoEngine\VideoObject.h" />
+    <ClInclude Include="StopWatchRunningScene.h" />
     <ClInclude Include="TitleScene.h" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +100,7 @@
     <ClCompile Include="MochinekoEngine\Texture.cpp" />
     <ClCompile Include="MochinekoEngine\VideoData.cpp" />
     <ClCompile Include="MochinekoEngine\VideoObject.cpp" />
+    <ClCompile Include="StopWatchRunningScene.cpp" />
     <ClCompile Include="TitleScene.cpp" />
   </ItemGroup>
   <ItemGroup>
