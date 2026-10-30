@@ -4,6 +4,8 @@
 #include "BaseScene.h"
 #include "DebugScene.h"
 #include "ObjectManager.h"
+#include "../TitleScene.h"
+#include "../StopWatchRunningScene.h"
 
 namespace SceneManager {
 	std::map<std::string, BaseScene*> sceneMap_;	// シーンの名前とポインタ
@@ -13,8 +15,11 @@ namespace SceneManager {
 void SceneManager::Init() {
 	sceneMap_.clear();
 	AddScene(new DebugScene());
+	AddScene(new TitleScene());
+	AddScene(new StopWatchRunningScene());
 
 	ChangeScene("DebugScene");
+	ChangeScene("TitleScene");
 }
 
 void SceneManager::Update() {

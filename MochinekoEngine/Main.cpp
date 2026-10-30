@@ -148,7 +148,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			SceneManager::Update();
 			ObjectManager::Update();
 
-			text->Draw();
+			//text->Draw();
 
 			DrawDebugImGUI();
 			SoundManager::DrawDebugImGUI();
